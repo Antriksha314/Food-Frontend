@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leftBox {
+  height: 205px !important;
+  width: 120px !important;
+  margin: 100px;
+  padding: 40px;
+  display: flex;
+  /* box-shadow: 10px 10px 30px; */
+  justify-content: center !important;
+}
+.rightBox {
+  height: 100%;
+  width: 15%;
+  margin: 5px;
+  padding: 90px;
+  display: flex;
+  /* box-shadow: 10px 10px 30px; */
+  justify-content: center !important;
+}
+
+.box {
+  height: 15%;
+  width: 50%;
+  margin: 1px;
+  margin-left: 40px;
+  padding: 100px;
+  display: flex;
+  box-shadow: 10px 10px 30px cornflowerblue;
+  justify-content: center !important;
+}
+
+form {
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  display: inline;
+}
+
+form input {
+  justify-content: center;
+  padding: 3px;
+  margin: 5px;
+  margin-block-start: auto;
+}
+form div {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+}
+
+form p {
+  margin-top: -14px;
+  color: #d8000c;
+  font-size: 12px;
+}
+form button {
+  margin: 25px;
+}
+.main-page {
+  display: flex;
+  justify-content: center;
+  margin: 130px 300px 13px;
+}
+
+.page-display {
+  display: flex;
+  justify-content: center;
+}
